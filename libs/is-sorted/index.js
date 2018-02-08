@@ -20,7 +20,7 @@ function defaultComparator (a, b) {
     comparator = comparator || defaultComparator
     
     for (var i = 1, length = array.length; i < length; ++i) {
-      // 当上一个元素比下一个元素大的时候，数组不满足从小到大排序，返回 false
+      // 当前一个元素比较大的时候，数组不满足从小到大排序，返回 false
       if (comparator(array[i - 1], array[i]) > 0) return false
     }
   
