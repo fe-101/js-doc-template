@@ -1,0 +1,17 @@
+{
+  "name": "js-doc-template",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "jsdoc --configure .jsdoc.json --verbose"
+  },
+  "keywords": [],
+  "author": "halo <haloislet@gmail.com> (https://github.com/haloislet)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jsdoc": "^3.5.5",
+    "minami": "^1.2.3"
+  }
+}
